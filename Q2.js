@@ -6,9 +6,5 @@ const a=(array)=>{
         }
     }
     return temp;
-}
+}   
 console.log(a([1,2,3,4,45,5,6,8,90]))
-const sum=(arr)=>{
-   return  arr.reduce((tot,i)=>(tot+arr[i],0))
-}
-console.log(sum([1,2,3,4,5,6,7,8,]))
